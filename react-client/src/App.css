@@ -1,28 +1,179 @@
-.App {
-  text-align: center;
+.section {
+  color: #118C79;
+  font-family: 'Heebo', sans-serif;
+  background-color: #F0ECEC;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+section.hero.is-small {
+  background-color: #F0ECEC;
+  color: #118C79;
+  font-family: 'Julius Sans One', sans-serif;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+.tabs a{
+color: #118C79;  
 }
 
-.App-title {
-  font-size: 1.5em;
+/* .hero-foot.has-text-centered.has-text-weight-semibold {
+  color: #457782;
+} */
+
+/* h2.subtitle.is-size-4 {
+  color: #7FBBA8;
+} */
+
+h1.name {
+  color: #118C79;
+  letter-spacing: 1rem;
+  font-size:3rem;
 }
 
-.App-intro {
-  font-size: large;
+h2.is-size-4.has-text-weight-semibold{
+  color: #1B4083;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+h1.has-text-centered.is-size-2.dark {
+  color: #F0ECEC;
+  font-family: 'Julius Sans One', sans-serif;
 }
+
+h1.has-text-centered.is-size-2 {
+  color: #118C79;
+  margin-bottom: 3rem;
+  border-bottom: 1px solid;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Julius Sans One', sans-serif;
+}
+
+h2.title {
+  color: #118C79;
+  border-bottom: 1px solid;
+  width: 85%;
+  font-family: 'Julius Sans One', sans-serif;
+}
+
+h3 {
+  color: #118C79;;
+  font-weight: 600;
+  font-family: 'Julius Sans One', sans-serif;
+}
+
+.date {
+  font-style: italic;
+}
+
+.section.dark {
+  padding: 3rem 1.5rem;
+  background-color: #118C79;
+  color:#F0ECEC;
+  font-family: 'Heebo', sans-serif;
+}
+
+.tile.is-parent {
+  margin: 0.75rem;
+  border-radius: 0.5rem;
+  background-color: #F0ECEC;
+  color: #118C79;
+}
+
+.columns{
+  justify-content: center;
+}
+
+.column {
+  max-width: max-content;
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
+img {
+  margin-bottom: 0.75rem;
+}
+
+a.project-title {
+  color: #118C79;
+  font-weight: 500;
+}
+
+a {
+  color: #118C79;
+}
+
+a:hover {
+  color: #11C6A6;
+}
+
+.button.is-medium {
+  background-color: #11C6A6;
+  color: #F0ECEC;
+}
+
+.logo {
+  padding: 1rem;
+  font-size: 2rem;
+  color: #118C79;
+  font-family: monospace;
+  height: auto;
+  width: auto;
+}
+
+/* TILE STYLES */
+.box {
+  background-color: #118C79;
+  color: #F0ECEC;
+}
+
+/* .highlight {
+  background-color: #8C5D7E;
+  padding: 1.25rem;
+} */
+
+.tile.is-ancestor.jobs {
+  color: #1B4083;;
+}
+ul.job-duties {
+  list-style-type: circle;
+  text-align: start;
+  padding-top: 0.75rem;
+
+}
+
+.footer {
+  background-color: #F0ECEC;
+}
+
+.breadcrumb {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 1rem;
+}
+
+.breadcrumb a{
+  color: #1B4083;
+}
+
+.email-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+textarea.textarea {
+  width: 40rem;
+}
+
+.section.contact {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 1rem;
+}
+
+.bottom-nav {
+  text-align: right;
+}
+
+.nav-link {
+  font-size: 1.25rem;
+}
+
