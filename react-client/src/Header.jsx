@@ -13,7 +13,7 @@ class Header extends Component {
             </nav>
             </div>
             <div className="hero-body">
-                <div className="container has-text-centered">
+                <div className="typewriter container has-text-centered">
                     <h1 className="name">
                         Matt Wong
                     </h1>
