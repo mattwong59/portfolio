@@ -4,7 +4,7 @@ import './App.css';
 class Header extends Component {
   render() {
     return (
-        <section className="hero is-small">
+        <section className="hero is-fullheight">
             <div className="hero-head">
             <nav className="navbar">
                 <div className="container">
