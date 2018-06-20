@@ -2,16 +2,29 @@ import React from "react";
 import './App.css';
 
 class Projects extends React.Component {
+    componentDidMount(){
+        console.log('Projects')
+    }
   render() {
     return (
     <section id="projects"className="section dark">
-        <h1 className="has-text-centered is-size-2 dark">Projects</h1>
+        <h1 className="has-text-centered is-size-2 dark hover hover-1">Projects</h1>
         <div className="container is-centered has-text-centered">
             <div className="tile is-ancestor">
                 <div className="tile is-parent">
+                    <div className="data-info">
+                           <h2> Beer Cat Tourism App </h2>
+                            <p className="is-size-6">Tools: React, Ruby on Rails, HTML, CSS</p>
+                        <h4>Technologies Used:</h4>
+                        <ul>
+                            <li>dasdsafasfas</li>
+                            <li>dasdsafasfas</li>
+                            <li>dasdsafasfas</li>
+                        </ul>
+                    </div>
                     <a href="https://github.com/mattwong59/Beer-Cat-Tourism-App" target="_blank" rel="noopener noreferrer" className="project-title is-size-4">
                         <figure className="image is-256x256">
-                            <img src={require("./docs/beercat-tour-bf.png")} alt="Screenshot of beer cat tour page."/>
+                            <img src={require("./docs/beercat-pub-pounce.png")} alt="Screenshot of beer cat tour page."/>
                             Beer Cat Tourism App
                             <p className="is-size-6">Tools: React, Ruby on Rails, HTML, CSS</p>
                         </figure>
@@ -20,7 +33,7 @@ class Projects extends React.Component {
                 <div className="tile is-parent">
                     <a href="https://github.com/mattwong59/chatty-app" target="_blank" rel="noopener noreferrer" className="project-title is-size-4">
                         <figure className="image is-256x256">
-                            <img src={require("./docs/chatty-two-users-bf.png")} alt="Screenshot of chatty with 2 users sending messages."/>
+                            <img src={require("./docs/chatty-two-users.png")} alt="Screenshot of chatty with 2 users sending messages."/>
                             Chatty App
                             <p className="is-size-6">Tools: React, WebSockets, Express, CSS</p>
                         </figure>
@@ -29,7 +42,7 @@ class Projects extends React.Component {
                 <div className="tile is-parent">
                     <a href="https://github.com/mattwong59/decider_midterm" target="_blank" rel="noopener noreferrer" className="project-title is-size-4">
                         <figure className="image is-256x256">
-                            <img src={require("./docs/decider-bf.png")} alt="Screenshot of decider home page."/>
+                            <img src={require("./docs/decider.png")} alt="Screenshot of decider home page."/>
                             Decider
                             <p className="is-size-6">Tools: Node, Express, EJS, PSQL, SASS, AJAX.</p>
                         </figure>
@@ -50,7 +63,7 @@ class Projects extends React.Component {
                     <div className="tile is-parent">
                     <figure className="image is-256x256">
                         <a href="https://github.com/mattwong59/tweeter" target="_blank" rel="noopener noreferrer" className="project-title is-size-4">
-                            <img src={require("./docs/tweeter-homepage-bf.png")} alt="Screenshot of tweeter home page"/>
+                            <img src={require("./docs/tweeter-restyle.png")} alt="Screenshot of tweeter home page"/>
                             Tweeter
                             <p className="is-size-6">Tools: HTML, CSS, JS, jQuery, AJAX, Node, Express, MongoDB</p>         
                         </a>
@@ -59,7 +72,7 @@ class Projects extends React.Component {
                     <div className="tile is-parent">
                     <figure className="image is-256x256">
                         <a href="https://github.com/mattwong59/tinyApp" target="_blank" rel="noopener noreferrer" className="project-title is-size-4">
-                            <img src={require("./docs/tinyapp-bf.png")} alt="Screenshot of tiny app urls page."/>
+                            <img src={require("./docs/Tiny-App-URLS.png")} alt="Screenshot of tiny app urls page."/>
                             Tiny App
                             <p className="is-size-6">Tools: Node, Express</p>         
                         </a>

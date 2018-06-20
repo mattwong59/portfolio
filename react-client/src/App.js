@@ -4,6 +4,7 @@ import Header  from './Header.jsx';
 import Projects from './Projects';
 import About from './About';
 import Contact from './Contact';
+// import SimpleSlider from './Slider';
 
 class App extends Component {
   render() {
@@ -11,6 +12,7 @@ class App extends Component {
       <div className="App">
         <Header />
         <Projects />
+        {/* <SimpleSlider /> */}
         <About />
         <Contact />
       </div>

@@ -41,11 +41,19 @@ class Contact extends Component {
                             </span>
                             <span className="has-text-weight-bold is-size-6">604-790-4193</span>
                         </a>
+                        </li><br/>
+                        <li>
+                            <a href="mailto:mattwong59@gmail.com?subject=Hi Matt">
+                            <span className="icon is-small">
+                                <i class="fas fa-envelope"></i>
+                            </span>
+                            <span className="has-text-weight-bold is-size-6">mattwong59@gmail.com</span>
+                        </a>
                         </li>
                     </ul>
                 </div>
-                
-                <div className="email-message">
+                <h3 className="has-text-centered is-size-4">Created by Matt Wong</h3>
+                {/* <div className="email-message">
                     <h3 className="has-text-centered is-size-4">Email Me</h3>        
                     <form action="mailto:mattwong59@gmail.com?subject=Hi Matt" method="post"  encType="text/plain">
                         <textarea className="textarea" type="text" name="message"  placeholder="Enter message here..."/><br/><br/>
@@ -54,7 +62,7 @@ class Contact extends Component {
                             <input className="button is-medium is-inverted" type="reset" value="Reset"/>
                         </div>
                     </form>
-                </div>
+                </div> */}
                 <div className=" container">
                     <ul className="bottom-nav">
                          <li><a className="nav-link" href="#projects">Projects</a></li>
@@ -63,7 +71,7 @@ class Contact extends Component {
                     </ul>
                 </div>
             </section>
-            <h3 className="has-text-centered is-size-4">Created by Matt Wong</h3>
+            
 
         </footer>
     )
