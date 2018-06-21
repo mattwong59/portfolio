@@ -4,6 +4,7 @@ import './App.css';
 class Projects extends React.Component {
     componentDidMount(){
         console.log('Projects')
+
     }
   render() {
     return (
