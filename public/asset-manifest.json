@@ -1,12 +1,12 @@
 {
-  "main.css": "static/css/main.cd5dd9a1.css",
-  "main.css.map": "static/css/main.cd5dd9a1.css.map",
-  "main.js": "static/js/main.b2cf8086.js",
-  "main.js.map": "static/js/main.b2cf8086.js.map",
-  "static/media/beercat-tour-bf.png": "static/media/beercat-tour-bf.706bd015.png",
-  "static/media/chatty-two-users-bf.png": "static/media/chatty-two-users-bf.416c2967.png",
-  "static/media/decider-bf.png": "static/media/decider-bf.1d36152b.png",
-  "static/media/jungle-product-bf.png": "static/media/jungle-product-bf.705d1b67.png",
-  "static/media/tinyapp-bf.png": "static/media/tinyapp-bf.20066d56.png",
-  "static/media/tweeter-homepage-bf.png": "static/media/tweeter-homepage-bf.ab890c19.png"
+  "main.css": "static/css/main.9b2c8dcd.css",
+  "main.css.map": "static/css/main.9b2c8dcd.css.map",
+  "main.js": "static/js/main.bf716c05.js",
+  "main.js.map": "static/js/main.bf716c05.js.map",
+  "static/media/Tiny-App-URLS.png": "static/media/Tiny-App-URLS.84d04b20.png",
+  "static/media/beercat-pub-pounce.png": "static/media/beercat-pub-pounce.919f0975.png",
+  "static/media/chatty-two-users.png": "static/media/chatty-two-users.6b679024.png",
+  "static/media/decider.png": "static/media/decider.602adb91.png",
+  "static/media/jungle-resize.png": "static/media/jungle-resize.01b5b036.png",
+  "static/media/tweeter-restyle.png": "static/media/tweeter-restyle.f991ce99.png"
 }
