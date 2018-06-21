@@ -55,7 +55,7 @@ class Projects extends React.Component {
                 <div className="tile is-parent">
                     <a href="https://github.com/mattwong59/jungle-rails" target="_blank" rel="noopener noreferrer" className="project-title is-size-4">
                         <figure className="image is-256x256">    
-                            <img src={require("./docs/jungle-product-bf.png")} alt="Screenshot of jungle's product page."/>
+                            <img src={require("./docs/jungle-resize.png")} alt="Screenshot of jungle's product page."/>
                             Jungle   
                             <p className="is-size-6">Tools: Ruby on Rails, Ruby</p>         
                         </figure>
