@@ -13,7 +13,7 @@ class Projects extends React.Component {
         <div className="container is-centered has-text-centered">
             <div className="tile is-ancestor">
                 <div className="tile is-parent">
-                    <div className="data-info">
+                    {/* <div className="data-info">
                            <h2> Beer Cat Tourism App </h2>
                             <p className="is-size-6">Tools: React, Ruby on Rails, HTML, CSS</p>
                         <h4>Technologies Used:</h4>
@@ -22,7 +22,7 @@ class Projects extends React.Component {
                             <li>dasdsafasfas</li>
                             <li>dasdsafasfas</li>
                         </ul>
-                    </div>
+                    </div> */}
                     <a href="https://github.com/mattwong59/Beer-Cat-Tourism-App" target="_blank" rel="noopener noreferrer" className="project-title is-size-4">
                         <figure className="image is-256x256">
                             <img src={require("./docs/beercat-pub-pounce.png")} alt="Screenshot of beer cat tour page."/>
