@@ -4,7 +4,7 @@ import './App.css';
 class About extends Component {
     render() {
       return (
-        <section id="about" className="section dark"> 
+        <section id="about" className="section"> 
             <h1 className="has-text-centered is-size-2 dark">More Fun Facts</h1> 
             <div className="container">
                 <div className="tile is-ancestor">

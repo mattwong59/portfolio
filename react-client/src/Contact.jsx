@@ -4,7 +4,7 @@ import './App.css';
 class Contact extends Component {
   render() {
     return (
-        <footer className="footer">
+        <footer className="footer section dark">
             
             <section className="section contact">
                 <div className="container">
