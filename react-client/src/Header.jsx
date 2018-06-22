@@ -104,12 +104,12 @@ class Header extends Component {
                     </section>
                 </div>
             </div>
-                <nav className="tabs has-text-weight-semibold">
+                <nav className="tabs is-size-5 has-text-weight-semibold">
                     <div className="container">
                         <ul>
+                            <li><a href="#summary">Summary</a></li>
                             <li><a href="#projects">Projects</a></li>
-                            <li><a href="#employment">Employment</a></li>
-                            <li><a href="#about">About</a></li>
+                            {/* <li><a href="#about">About</a></li> */}
                         </ul>
                     </div>
                 </nav>

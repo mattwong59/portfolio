@@ -4,10 +4,11 @@ import './App.css';
 class About extends Component {
     render() {
       return (
-        <section id="about" className="section"> 
+        <section id="about" className="section dark"> 
             <h1 className="has-text-centered is-size-2 dark">More Fun Facts</h1> 
             <div className="container">
-                <div className="tile is-ancestor">
+                
+                {/* <div className="tile is-ancestor">
                     <div className="tile is-parent">
                         <div className="container is-fluid">
                             <h2 className="title is-size-4">Certificates</h2>
@@ -73,7 +74,7 @@ class About extends Component {
                         </div>
                     </div>
 
-                </div>
+                </div> */}
             </div>
         </section>        
       )
