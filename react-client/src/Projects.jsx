@@ -24,7 +24,7 @@ class Projects extends React.Component {
                         </ul>
                     </div> */}
                     <a href="https://github.com/mattwong59/Beer-Cat-Tourism-App" target="_blank" rel="noopener noreferrer" className="project-title is-size-4">
-                        <figure className="image is-4x3">
+                        <figure className="image is-256x256">
                             <img src={require("./docs/beercat-pub-pounce.png")} alt="Screenshot of beer cat tour page."/>
                             <h4>Beer Cat Tourism App</h4>
                             <p className="is-size-6">Tools: React, Ruby on Rails, HTML, CSS</p>
