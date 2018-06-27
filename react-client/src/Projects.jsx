@@ -13,7 +13,30 @@ class Projects extends React.Component {
         <div className="container is-centered has-text-centered">
             <div className="tile is-ancestor">
                 <div className="tile is-parent">
-                    {/* <div className="data-info">
+                    <div className="my-container">
+                        <div className="my-content">
+                            <a href="https://unsplash.com/photos/HkTMcmlMOUQ" target="_blank">
+                            <div className="content-overlay">
+                            {/* <div className="content-details fadeIn-top"> */}
+                                <h3>Technologies Used:</h3><br/>
+                                <ul>
+                                    <li>React JS</li>
+                                    <li>Ruby on Rails</li>
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                </ul>
+                                <a class="button is-outlined">Outlined</a>
+                                {/* </div>                             */}
+                            </div>
+                                {/* <figure className="image is-256x256"> */}
+                                    <img className="content-image" src={require("./docs/beercat-pub-pounce.png")} alt="Screenshot of beer cat tour page." />
+                                {/* </figure>     */}
+                            </a>
+                            <h4 className="is-size-4">Beer Cat Tourism App</h4>
+                        </div>
+                    </div>
+                
+                    {/* <div className="title-hover">
                            <h2> Beer Cat Tourism App </h2>
                             <p className="is-size-6">Tools: React, Ruby on Rails, HTML, CSS</p>
                         <h4>Technologies Used:</h4>
@@ -23,13 +46,13 @@ class Projects extends React.Component {
                             <li>dasdsafasfas</li>
                         </ul>
                     </div> */}
-                    <a href="https://github.com/mattwong59/Beer-Cat-Tourism-App" target="_blank" rel="noopener noreferrer" className="project-title is-size-4">
+                    {/* <a href="https://github.com/mattwong59/Beer-Cat-Tourism-App" target="_blank" rel="noopener noreferrer" className="project-title is-size-4">
                         <figure className="image is-256x256">
                             <img src={require("./docs/beercat-pub-pounce.png")} alt="Screenshot of beer cat tour page."/>
                             <h4>Beer Cat Tourism App</h4>
                             <p className="is-size-6">Tools: React, Ruby on Rails, HTML, CSS</p>
                         </figure>
-                    </a> 
+                    </a>  */}
                 </div>
                 <div className="tile is-parent">
                     <a href="https://github.com/mattwong59/chatty-app" target="_blank" rel="noopener noreferrer" className="project-title is-size-4">
