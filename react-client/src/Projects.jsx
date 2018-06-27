@@ -111,16 +111,20 @@ class Projects extends React.Component {
                             <div className="content-overlay">
                                 <div className="content-details fadeIn-top">
                                     <h3>Technologies Used:</h3><br/>
+                                    <div className="tools">
                                     <ul>
                                         <li>HTML</li>
                                         <li>CSS</li>
                                         <li>Javascript</li>
                                         <li>jQuery</li>
+                                    </ul>
+                                    <ul>
                                         <li>MongoDB</li>
                                         <li>AJAX</li>
                                         <li>Node.js</li>
                                         <li>Express</li>
                                     </ul>
+                                    </div>
                                     <a href="https://github.com/mattwong59/tweeter" target="_blank" rel="noopener noreferrer" class="button is-outlined is-rounded">
                                         Visit Repo &nbsp; <i className="fas fa-angle-right"></i>
                                     </a>

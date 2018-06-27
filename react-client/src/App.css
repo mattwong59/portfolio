@@ -342,7 +342,7 @@ p.contact-icons a:hover {
 
 .content-details h3{
   color: rgb(255, 255, 255);
-  font-weight: 500;
+  font-weight: bolder;
   letter-spacing: 0.15em;
   margin-bottom: 0.5em;
   text-transform: uppercase;
@@ -371,5 +371,10 @@ a.button.is-outlined {
   transition: all 0.4s ease-in-out 0s;
 }
 
+.tools {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
 /* DONE TEST OVERLAY  */

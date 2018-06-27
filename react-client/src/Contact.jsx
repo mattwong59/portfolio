@@ -6,7 +6,7 @@ class Contact extends Component {
     return (
         <footer className="footer section is-small has-text-centered">
             <div className="container">
-                <a href="#projects">
+                <a href="#summary">
                   <i class="fas fa-chevron-up"></i>
                 </a>
             </div>
